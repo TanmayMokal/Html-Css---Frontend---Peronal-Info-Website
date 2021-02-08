@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>My personal website</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <header class="header">
+      <div class="left">
+        <img src="images/logo-1.png" alt="" />
+        <div>TanyDev</div>
+      </div>
+      <div class="mid">
+        <div class="navbar">
+          <ul>
+            <li><a href="#">Home</a></li>
+            <li><a href="#">About Me</a></li>
+            <li><a href="#">Services</a></li>
+            <li><a href="#">Contact Me</a></li>
+          </ul>
+        </div>
+      </div>
+      <div class="right">
+        <button class="btn">Coffe with Me</button>
+      </div>
+    </header>
+    <div class="container">
+      <h3>If You have any work for me then drop your details (:</h3>
+      <form action="form.php" class="form-group">
+        <p class="box">
+          <!-- <label for="name">Name :</label> -->
+          <input type="text" id="name" placeholder="Enter your Name" />
+        </p>
+        <p class="box">
+          <!-- <label for="gender">Gender :</label> -->
+          Male <input type="radio" name="gender" id="gender" /> Female
+          <input type="radio" name="gender" id="gender" />
+        </p>
+        <p class="box">
+          <!-- <label for="number">Phone Number :</label> -->
+          <input
+            type="number"
+            id="number"
+            placeholder="Enter your phone number"
+          />
+        </p>
+
+        <p>
+          <button class="submit">Submit</button>
+        </p>
+      </form>
+    </div>
+  </body>
+</html>
